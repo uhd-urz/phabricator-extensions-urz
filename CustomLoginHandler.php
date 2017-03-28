@@ -30,18 +30,6 @@ final class CustomLoginHandler
 
       <p>Wenn Sie ein <strong>externer Nutzer</strong> sind, geben Sie bitte unten ihren Nutzernamen und ihr Passwort ein.</p>
     </div>
-  </div>
-
-  <div class="aphront-dialog-view">
-    <div class="aphront-dialog-head">
-      <div class="phui-action-header sprite-gradient gradient-lightblue-header">
-        <h2 class="phui-action-header-title">Fragen oder Probleme?</h2>
-      </div>
-    </div>
-
-    <div class="aphront-dialog-body">
-     <p>Bei Problem und Fragen wenden Sie sich bitte an den <a href="http://it-service.uni-heidelberg.de/">IT-Support</a> oder schreiben eine Email an die <a href="mailto:urz-phabricator@listserv.uni-heidelberg.de">Phabricator Admins</a>.</p>
-    </div>
   </div>');
   }
 
