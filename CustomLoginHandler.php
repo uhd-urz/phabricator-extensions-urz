@@ -7,8 +7,10 @@ final class CustomLoginHandler
     return phutil_safe_html(
       '  <div class="aphront-dialog-view">
     <div class="aphront-dialog-head">
-      <div class="phui-action-header sprite-gradient gradient-lightblue-header">
-        <h2 class="phui-action-header-title">Wie logge ich mich ein?</h2>
+      <div class="phui-header-shell">
+        <h1 class="phui-header-view">
+          <span class="phui-header-header">Wie logge ich mich ein?<span>
+        </h1>
       </div>
     </div>
 
