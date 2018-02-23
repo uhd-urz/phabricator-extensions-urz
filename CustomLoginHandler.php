@@ -30,7 +30,7 @@ final class CustomLoginHandler
         </button>
       </div>
 
-      <p>Wenn Sie ein <strong>externer Nutzer</strong> sind, geben Sie bitte unten ihren Nutzernamen und ihr Passwort ein.</p>
+      <p>Wenn Sie ein <strong>externer Nutzer</strong> sind, geben Sie bitte ihren Nutzernamen und ihr Passwort direkt unter "External User" ein.</p>
     </div>
   </div>');
   }
