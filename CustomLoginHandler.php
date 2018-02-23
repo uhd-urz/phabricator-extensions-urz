@@ -16,7 +16,7 @@ final class CustomLoginHandler
       <p>Wenn Sie der <strong>Universität Heidelberg</strong> zugehörig sind und über eine <strong>UniID</strong> verfügen, klicken Sie bitte auf den Butten weiter unten, welcher folgenermaßen aussieht:</p>
 
       <div class="phabricator-login-button mmb">
-        <div class="button grey big has-icon ">
+        <button class="button button-grey big has-icon has-text phui-button-default">
           <span class="visual-only phui-icon-view sprite-login login-UHD" aria-hidden="true"></span>
           <div class="phui-button-text">
             Login or Register
@@ -25,7 +25,7 @@ final class CustomLoginHandler
               Uni Heidelberg - UniID
             </div>
           </div>
-        </div>
+        </button>
       </div>
 
       <p>Wenn Sie ein <strong>externer Nutzer</strong> sind, geben Sie bitte unten ihren Nutzernamen und ihr Passwort ein.</p>
