@@ -1,0 +1,11 @@
+<?php
+
+final class CustomLoginHandler
+  extends PhabricatorAuthLoginHandler {
+
+  public function getAuthLoginHeaderContent() {
+    return phutil_safe_html(
+      '{{include:auth-login-message.html}}');
+  }
+
+}
