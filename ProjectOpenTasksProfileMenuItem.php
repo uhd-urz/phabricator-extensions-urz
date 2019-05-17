@@ -22,17 +22,20 @@ final class ProjectOpenTasksProfileMenuItem
     return pht('Open Tasks');
   }
 
-  protected function newNavigationMenuItems(
+  protected function newMenuItemViewList(
     PhabricatorProfileMenuItemConfiguration $config) {
+    $viewer = $this->getViewer();
+
+    $name = $this->getDisplayName($config);
+    $icon = 'fa-anchor';
 
     $object = $config->getProfileObject();
+    $uri = '/maniphest/?project='.$object->getPHID().'#R';
 
-    $href = '/maniphest/?project='.$object->getPHID().'#R';
-
-    $item = $this->newItem()
-      ->setHref($href)
-      ->setName($this->getDisplayName($config))
-      ->setIcon('fa-anchor');
+    $item = $this->newItemView()
+      ->setURI($uri)
+      ->setName($name)
+      ->setIcon($icon);
 
     return array(
       $item,
